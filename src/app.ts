@@ -1,6 +1,6 @@
 import cors from 'cors';
 import express, { Application, Request, Response } from 'express';
-import { generateUserId } from './app/modules/user/user.util';
+import userRoutes from './app/modules/user/user.route';
 const app: Application = express();
 
 //parser
@@ -8,10 +8,12 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.get('/', (req: Request, res: Response) => {
+//application router
+app.use('/api/v1/user', userRoutes);
+
+//testing router
+app.get('/', async (req: Request, res: Response) => {
   res.json('Working Successfully');
 });
-
-console.log(generateUserId());
 
 export default app;
