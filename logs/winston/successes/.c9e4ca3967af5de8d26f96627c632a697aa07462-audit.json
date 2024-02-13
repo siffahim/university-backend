@@ -9,6 +9,16 @@
             "date": 1707754770672,
             "name": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\successes\\2024-12-02-22-success.log",
             "hash": "1443ffcc430703c1111f4cb288e7994fa84be2fb1169a12e11970bb44a1816f7"
+        },
+        {
+            "date": 1707829343522,
+            "name": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\successes\\2024-13-02-19-success.log",
+            "hash": "0266deb2ba10b11102ff2f6677694faf8e5f4445efb9dee777dbed50f6b7b7c0"
+        },
+        {
+            "date": 1707833290749,
+            "name": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\successes\\2024-13-02-20-success.log",
+            "hash": "7d0088edde8c292d07af2508153cc5d5995e1baa97759e97914b5893bde2b6bd"
         }
     ],
     "hashType": "sha256"
