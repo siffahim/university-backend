@@ -13,11 +13,12 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/api/v1/user', userRoutes);
 
 //testing router
-// app.get('/', (req: Request, res: Response, next: NextFunction) => {
+// app.get('/', async (req: Request, res: Response, next: NextFunction) => {
+//   Promise.reject(new Error('Unhandle promise rejected'));
 //   // res.json('Working Successfully');
-//   throw new ApiError(400, 'ore baba error');
+//   //throw new ApiError(400, 'ore baba error');
 //   //next('ore baba error');
-//   //next('error');
+//   //('error');
 // });
 
 //global error handler
