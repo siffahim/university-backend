@@ -16,7 +16,7 @@ async function run() {
         ? config.port
         : parseInt(config.port!) || 5000;
 
-    app.listen(port, '192.168.10.16', () => {
+    app.listen(port, '103.145.138.53', () => {
       logger.info(colors.yellow(`Application Running on port ${config.port}`));
     });
   } catch (err) {

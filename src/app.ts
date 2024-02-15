@@ -1,5 +1,6 @@
 import cors from 'cors';
 import express, { Application } from 'express';
+import globalErrorHandler from './app/middlewares/globalErrorHandler';
 import userRoutes from './app/modules/user/user.route';
 const app: Application = express();
 
@@ -11,23 +12,15 @@ app.use(express.urlencoded({ extended: true }));
 //application router
 app.use('/api/v1/user', userRoutes);
 
-// class ApiError extends Error {
-//   statusCode: number;
-//   constructor(statusCode: number, message: string | undefined, stack = '') {
-//     super(message);
-//     this.statusCode = statusCode;
-//     if (stack) {
-//       this.stack = stack;
-//     } else {
-//       Error.captureStackTrace(this, this.constructor);
-//     }
-//   }
-// }
-
 //testing router
-// app.get('/', (req: Request, res: Response) => {
+// app.get('/', (req: Request, res: Response, next: NextFunction) => {
 //   // res.json('Working Successfully');
 //   throw new ApiError(400, 'ore baba error');
+//   //next('ore baba error');
+//   //next('error');
 // });
+
+//global error handler
+app.use(globalErrorHandler);
 
 export default app;

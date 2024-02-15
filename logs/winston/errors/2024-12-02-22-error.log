@@ -1,1 +1,0 @@
-Mon Feb 12 2024 22:20:5 [SIF] error: 🤢 Failed to connect Database MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
