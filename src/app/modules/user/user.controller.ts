@@ -1,10 +1,10 @@
 import { NextFunction, Request, Response } from 'express';
-import userService from './user.service';
+import { UserService } from './user.service';
 
 const createUser = async (req: Request, res: Response, next: NextFunction) => {
   try {
     const { user } = req.body;
-    const result = await userService.createUserToDB(user);
+    const result = await UserService.createUserToDB(user);
 
     res.status(200).json({
       status: true,
@@ -12,15 +12,10 @@ const createUser = async (req: Request, res: Response, next: NextFunction) => {
       data: result
     });
   } catch (error) {
-    // res.status(400).json({
-    //   status: false,
-    //   message: error
-    // });
-    // alternative way
     next(error);
   }
 };
 
-export default {
+export const UserController = {
   createUser
 };

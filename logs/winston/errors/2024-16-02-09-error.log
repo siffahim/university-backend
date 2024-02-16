@@ -1,0 +1,2 @@
+Fri Feb 16 2024 9:52:6 [SIF] error: listen EADDRNOTAVAIL: address not available 192.168.1.8:5000
+Fri Feb 16 2024 9:52:39 [SIF] error: listen EADDRINUSE: address already in use 103.145.138.53:5000

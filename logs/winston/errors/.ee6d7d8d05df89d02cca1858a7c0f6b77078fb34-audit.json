@@ -6,29 +6,29 @@
     "auditLog": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\.ee6d7d8d05df89d02cca1858a7c0f6b77078fb34-audit.json",
     "files": [
         {
-            "date": 1707968683935,
-            "name": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-15-02-09-error.log",
-            "hash": "5c91259d58c2de1a65b2487e0deb421ad970d8064f585566f6f00fcd42d72719"
+            "date": 1708055524162,
+            "name": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-16-02-09-error.log",
+            "hash": "5f66ccec88b714c0f14316745db6b92842c7ebc1a2c8f9ed14dbd7586868c408"
         },
         {
-            "date": 1707973865098,
-            "name": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-15-02-11-error.log",
-            "hash": "3f0629d66a64a7222fd1a6a75331818369b1b877c931c54864c48f9823e3a348"
+            "date": 1708056015730,
+            "name": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-16-02-10-error.log",
+            "hash": "47c27a755c5341cacb34e9ea6f5c18a8c687d0e0c140ce1d7fb94048b5fd7863"
         },
         {
-            "date": 1707977590465,
-            "name": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-15-02-12-error.log",
-            "hash": "6f336b946617fd67469a92e609c22028fb6fcbdecd5eb16dbfbb22c29fb51de0"
+            "date": 1708060145084,
+            "name": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-16-02-11-error.log",
+            "hash": "56d800dbf4d91854f27a16d1ca59290e19a04d4045f264f3c3920eab2e14e88b"
         },
         {
-            "date": 1707984570926,
-            "name": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-15-02-14-error.log",
-            "hash": "0724213690f665a4a31e3e14a650698eafed11a0135fda06e91a30452c3476c7"
+            "date": 1708074778153,
+            "name": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-16-02-15-error.log",
+            "hash": "5d6bf90ea3bfeba106105afb3350ad8cdfdad8f3a788f56f5f8394f748b7cd81"
         },
         {
-            "date": 1707988551205,
-            "name": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-15-02-15-error.log",
-            "hash": "471b7035a475c8a2635f912bb95aff616866e5abe591960cd0eb3ea65b4ef287"
+            "date": 1708078248490,
+            "name": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-16-02-16-error.log",
+            "hash": "0d036e69c3883a5da74ad30fdcf5295a3506cefc33c0a7692df752ef292d1684"
         }
     ],
     "hashType": "sha256"

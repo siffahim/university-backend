@@ -6,8 +6,14 @@ import app from './app';
 import config from './config';
 import { errorLogger, logger } from './shared/logger';
 
+//uncaught exception
+process.on('uncaughtException', error => {
+  errorLogger.error(error);
+  process.exit(1);
+});
+
+let server: Server;
 async function run() {
-  let server: Server;
   try {
     //database connection
     await mongoose.connect(config.database_url as string);
@@ -19,7 +25,7 @@ async function run() {
         ? config.port
         : parseInt(config.port!) || 5000;
 
-    server = app.listen(port, '192.168.1.8', () => {
+    server = app.listen(port, '103.145.138.53', () => {
       logger.info(colors.yellow(`Application Running on port ${config.port}`));
     });
   } catch (error) {
@@ -27,7 +33,7 @@ async function run() {
   }
 
   process.on('unhandledRejection', error => {
-    console.log('Unhandle rejection is detected, we are closing server...');
+    // console.log('Unhandle rejection is detected, we are closing server...');
     if (server) {
       server.close(() => {
         errorLogger.error(error);
@@ -40,3 +46,11 @@ async function run() {
 }
 
 run();
+
+//sigterm
+process.on('SIGTERM', () => {
+  logger.info('SIGTERM IS RECEIVED');
+  if (server) {
+    server.close();
+  }
+});

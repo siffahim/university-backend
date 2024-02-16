@@ -1,3 +1,4 @@
+import config from '../../../config';
 import ApiError from '../../../errors/AprError';
 import { IUser } from './user.interface';
 import { User } from './user.model';
@@ -9,9 +10,9 @@ const createUserToDB = async (user: IUser): Promise<IUser | null> => {
   user.id = id;
 
   //default student pass
-  // if (!user.password) {
-  //   user.password = config.default_user_pass as string;
-  // }
+  if (!user.password) {
+    user.password = config.default_user_pass as string;
+  }
 
   const createUser = await User.create(user);
 
@@ -22,6 +23,6 @@ const createUserToDB = async (user: IUser): Promise<IUser | null> => {
   return createUser;
 };
 
-export default {
+export const UserService = {
   createUserToDB
 };

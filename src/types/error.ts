@@ -1,5 +1,5 @@
 export type IErrorMessages = {
-  path: string;
+  path: string | number;
   message: string;
 };
 
