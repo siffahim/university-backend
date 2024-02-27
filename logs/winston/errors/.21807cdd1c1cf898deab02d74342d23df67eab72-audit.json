@@ -1,20 +1,20 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 1
+  "keep": {
+    "days": true,
+    "amount": 1
+  },
+  "auditLog": "D:\\Programming\\Next Level Programming Hero\\Projects\\university-backend\\logs\\winston\\errors\\.21807cdd1c1cf898deab02d74342d23df67eab72-audit.json",
+  "files": [
+    {
+      "date": 1708014117781,
+      "name": "D:\\Programming\\Next Level Programming Hero\\Projects\\university-backend\\logs\\winston\\errors\\2024-15-02-22-error.log",
+      "hash": "738ba1d4c6224ae4e27de9d6d0abb4d3a19d2368d919315b0a1b11197ec88262"
     },
-    "auditLog": "D:\\Programming\\Next Level Programming Hero\\Projects\\university-backend\\logs\\winston\\errors\\.21807cdd1c1cf898deab02d74342d23df67eab72-audit.json",
-    "files": [
-        {
-            "date": 1708014117781,
-            "name": "D:\\Programming\\Next Level Programming Hero\\Projects\\university-backend\\logs\\winston\\errors\\2024-15-02-22-error.log",
-            "hash": "738ba1d4c6224ae4e27de9d6d0abb4d3a19d2368d919315b0a1b11197ec88262"
-        },
-        {
-            "date": 1708016502561,
-            "name": "D:\\Programming\\Next Level Programming Hero\\Projects\\university-backend\\logs\\winston\\errors\\2024-15-02-23-error.log",
-            "hash": "b5890c0d2d51dccdf2382ab629dca66289c1b22116ec581a98d96e813fb79dfd"
-        }
-    ],
-    "hashType": "sha256"
+    {
+      "date": 1708016502561,
+      "name": "D:\\Programming\\Next Level Programming Hero\\Projects\\university-backend\\logs\\winston\\errors\\2024-15-02-23-error.log",
+      "hash": "b5890c0d2d51dccdf2382ab629dca66289c1b22116ec581a98d96e813fb79dfd"
+    }
+  ],
+  "hashType": "sha256"
 }

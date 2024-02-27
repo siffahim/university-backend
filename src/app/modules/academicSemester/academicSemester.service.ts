@@ -1,16 +1,16 @@
 import ApiError from '../../../errors/AprError';
+import { AcademicSemesterCodeTitleMapper } from './academicSemester.constant';
 import { IAcademicSemester } from './academicSemester.interface';
 import { AcademicSemester } from './academicSemester.model';
 
 const createAcademicSemesterToDB = async (
   payload: IAcademicSemester
 ): Promise<IAcademicSemester | null> => {
-  const createSemester = await AcademicSemester.create(payload);
-
-  if (!createSemester) {
-    throw new ApiError(400, 'Failed to create academic semester');
+  if (AcademicSemesterCodeTitleMapper[payload.title] !== payload.code) {
+    throw new ApiError(400, 'Invalid semester code!');
   }
 
+  const createSemester = await AcademicSemester.create(payload);
   return createSemester;
 };
 

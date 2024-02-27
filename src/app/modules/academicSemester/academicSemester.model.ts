@@ -5,7 +5,7 @@ import {
   AcademicSemesterCodes,
   AcademicSemesterMonths,
   AcademicSemesterTitles
-} from './academicSemester.constrant';
+} from './academicSemester.constant';
 import {
   AcademicSemesterModel,
   IAcademicSemester
