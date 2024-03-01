@@ -18,7 +18,10 @@ const userSchema = new Schema<IUser, UserModel>(
     }
   },
   {
-    timestamps: true
+    timestamps: true,
+    toJSON: {
+      virtuals: true
+    }
   }
 );
 
