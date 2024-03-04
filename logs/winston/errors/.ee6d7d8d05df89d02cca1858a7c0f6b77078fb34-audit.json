@@ -1,50 +1,25 @@
 {
-  "keep": {
-    "days": true,
-    "amount": 1
-  },
-  "auditLog": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\.ee6d7d8d05df89d02cca1858a7c0f6b77078fb34-audit.json",
-  "files": [
-    {
-      "date": 1709195367725,
-      "name": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-29-02-14-error.log",
-      "hash": "bb0821f07c5c57f2caabe1a9ca7d067c8600a993925229e0152b7a128c98a397"
+    "keep": {
+        "days": true,
+        "amount": 1
     },
-    {
-      "date": 1709197534723,
-      "name": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-29-02-15-error.log",
-      "hash": "4ff13e887a0f6e81c42874c4c549e68b228484cdb095dbd972add11d3818e97b"
-    },
-    {
-      "date": 1709201026865,
-      "name": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-29-02-16-error.log",
-      "hash": "b07215e025e87a4e1f369e8ee7c2aaaa63812e60d70321c496fe6c215be2942f"
-    },
-    {
-      "date": 1709205745096,
-      "name": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-29-02-17-error.log",
-      "hash": "a43a996f1ad527cce024c453d41f3e946edec5e7f91bc124adf855113688eace"
-    },
-    {
-      "date": 1709208005144,
-      "name": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-29-02-18-error.log",
-      "hash": "c8dd98c882c1662661e4fa1a78d22a69ab8a2b62700d25471f17280b14186b99"
-    },
-    {
-      "date": 1709267086895,
-      "name": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-01-03-10-error.log",
-      "hash": "ecca13762433585c56e9c0d3d9a4929098c374b6edf3c546894d5b213493e8e4"
-    },
-    {
-      "date": 1709269459182,
-      "name": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-01-03-11-error.log",
-      "hash": "1dc117289495ca157eaf99e74db49d26e8c9812a6c790be304648c76161e6cfe"
-    },
-    {
-      "date": 1709272949734,
-      "name": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-01-03-12-error.log",
-      "hash": "897a53e2689731dd396c295d858f8fb312e1c660dbd69b3d951436367766091d"
-    }
-  ],
-  "hashType": "sha256"
+    "auditLog": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\.ee6d7d8d05df89d02cca1858a7c0f6b77078fb34-audit.json",
+    "files": [
+        {
+            "date": 1709541874160,
+            "name": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-04-03-14-error.log",
+            "hash": "f889e4be55c51ac4072d3fce95119f4121ea7a8a980a3e4197110d5903b852aa"
+        },
+        {
+            "date": 1709542993289,
+            "name": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-04-03-15-error.log",
+            "hash": "ab5b9c91aa7b75c5e46846fcb1f331d7e845874e59c49e3da649201fa9e5c049"
+        },
+        {
+            "date": 1709547339269,
+            "name": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-04-03-16-error.log",
+            "hash": "5fcf2c2b4359e3658a9cf24be2456f923bbac3482145ddb99ce278ad1cfdaf3c"
+        }
+    ],
+    "hashType": "sha256"
 }

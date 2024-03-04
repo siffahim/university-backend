@@ -2,11 +2,15 @@ import config from '../../../config';
 import ApiError from '../../../errors/AprError';
 import { IUser } from './user.interface';
 import { User } from './user.model';
-import { generateUserId } from './user.util';
+import { generateFacultyId } from './user.util';
 
 const createUserToDB = async (user: IUser): Promise<IUser | null> => {
   //incremental student id
-  const id = await generateUserId();
+  // const academy = {
+  //   year: '2025',
+  //   code: '03'
+  // };
+  const id = await generateFacultyId();
   user.id = id;
 
   //default student pass

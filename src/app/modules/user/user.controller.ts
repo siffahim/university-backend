@@ -5,8 +5,8 @@ import sendResponse from '../../../shared/sendResponse';
 import { UserService } from './user.service';
 
 const createUser = catchAsync(async (req: Request, res: Response) => {
-  const { user } = req.body;
-  const result = await UserService.createUserToDB(user);
+  const { ...userData } = req.body;
+  const result = await UserService.createUserToDB(userData);
 
   sendResponse(res, {
     statusCode: StatusCodes.OK,
