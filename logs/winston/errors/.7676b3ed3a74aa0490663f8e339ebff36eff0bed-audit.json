@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 1
+    },
+    "auditLog": "D:\\Bungee\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\.7676b3ed3a74aa0490663f8e339ebff36eff0bed-audit.json",
+    "files": [
+        {
+            "date": 1710507505829,
+            "name": "D:\\Bungee\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-15-03-18-error.log",
+            "hash": "dd26ce20d6a7eac5d417ccf24b97477378c7cbe057346340f65bb532329a5941"
+        },
+        {
+            "date": 1710507818003,
+            "name": "D:\\Bungee\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-15-03-19-error.log",
+            "hash": "b4ffbff66b46b8f59ece306096cd06e7687ddab4aa7f1e08917823f15f157748"
+        }
+    ],
+    "hashType": "sha256"
+}

@@ -1,25 +1,25 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 1
+  "keep": {
+    "days": true,
+    "amount": 1
+  },
+  "auditLog": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\.ee6d7d8d05df89d02cca1858a7c0f6b77078fb34-audit.json",
+  "files": [
+    {
+      "date": 1709541874160,
+      "name": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-04-03-14-error.log",
+      "hash": "f889e4be55c51ac4072d3fce95119f4121ea7a8a980a3e4197110d5903b852aa"
     },
-    "auditLog": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\.ee6d7d8d05df89d02cca1858a7c0f6b77078fb34-audit.json",
-    "files": [
-        {
-            "date": 1709541874160,
-            "name": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-04-03-14-error.log",
-            "hash": "f889e4be55c51ac4072d3fce95119f4121ea7a8a980a3e4197110d5903b852aa"
-        },
-        {
-            "date": 1709542993289,
-            "name": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-04-03-15-error.log",
-            "hash": "ab5b9c91aa7b75c5e46846fcb1f331d7e845874e59c49e3da649201fa9e5c049"
-        },
-        {
-            "date": 1709547339269,
-            "name": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-04-03-16-error.log",
-            "hash": "5fcf2c2b4359e3658a9cf24be2456f923bbac3482145ddb99ce278ad1cfdaf3c"
-        }
-    ],
-    "hashType": "sha256"
+    {
+      "date": 1709542993289,
+      "name": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-04-03-15-error.log",
+      "hash": "ab5b9c91aa7b75c5e46846fcb1f331d7e845874e59c49e3da649201fa9e5c049"
+    },
+    {
+      "date": 1709547339269,
+      "name": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-04-03-16-error.log",
+      "hash": "5fcf2c2b4359e3658a9cf24be2456f923bbac3482145ddb99ce278ad1cfdaf3c"
+    }
+  ],
+  "hashType": "sha256"
 }

@@ -1,25 +1,25 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 1
+  "keep": {
+    "days": true,
+    "amount": 1
+  },
+  "auditLog": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\successes\\.c9e4ca3967af5de8d26f96627c632a697aa07462-audit.json",
+  "files": [
+    {
+      "date": 1709541874156,
+      "name": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\successes\\2024-04-03-14-success.log",
+      "hash": "abd2f93fbe9c64e55f3d77e0fd9bb2587bf66c84b3af55b9042f4ebaf1aa4095"
     },
-    "auditLog": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\successes\\.c9e4ca3967af5de8d26f96627c632a697aa07462-audit.json",
-    "files": [
-        {
-            "date": 1709541874156,
-            "name": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\successes\\2024-04-03-14-success.log",
-            "hash": "abd2f93fbe9c64e55f3d77e0fd9bb2587bf66c84b3af55b9042f4ebaf1aa4095"
-        },
-        {
-            "date": 1709542993286,
-            "name": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\successes\\2024-04-03-15-success.log",
-            "hash": "cdc4cc158544ec42bc4e5a38cd5fe92688c8ec0da100ff72f0141abe1f689c09"
-        },
-        {
-            "date": 1709547339267,
-            "name": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\successes\\2024-04-03-16-success.log",
-            "hash": "9e101fdabd78275d02ead94f4f3d272127b10e973b53048460e42d344d877887"
-        }
-    ],
-    "hashType": "sha256"
+    {
+      "date": 1709542993286,
+      "name": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\successes\\2024-04-03-15-success.log",
+      "hash": "cdc4cc158544ec42bc4e5a38cd5fe92688c8ec0da100ff72f0141abe1f689c09"
+    },
+    {
+      "date": 1709547339267,
+      "name": "D:\\Fahim\\Backend\\university-backend\\logs\\winston\\successes\\2024-04-03-16-success.log",
+      "hash": "9e101fdabd78275d02ead94f4f3d272127b10e973b53048460e42d344d877887"
+    }
+  ],
+  "hashType": "sha256"
 }

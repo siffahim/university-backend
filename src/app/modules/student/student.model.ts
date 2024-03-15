@@ -1,4 +1,5 @@
 import { Schema, model } from 'mongoose';
+import { bloodGroup, gender } from './student.constant';
 import { IStudent, StudentModel } from './student.interface';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -30,11 +31,11 @@ export const studentSchema: any = new Schema<IStudent, StudentModel>(
     },
     gender: {
       type: String,
-      enum: ['male', 'female']
+      enum: gender
     },
     bloodGroup: {
       type: String,
-      enum: ['A+', 'A-', 'B+', 'B-', 'AB+', 'AB-', 'O+', 'O-']
+      enum: bloodGroup
     },
     email: {
       type: String,
@@ -113,8 +114,7 @@ export const studentSchema: any = new Schema<IStudent, StudentModel>(
       }
     },
     profileImage: {
-      type: String,
-      required: true
+      type: String
     },
     academicFaculty: {
       type: Schema.Types.ObjectId,
