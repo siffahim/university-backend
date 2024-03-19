@@ -53,6 +53,23 @@ const createStudentToDB = async (
     throw error;
   }
 
+  if (newUserAllData) {
+    newUserAllData = await User.findOne({ id: newUserAllData.id }).populate({
+      path: 'student',
+      populate: [
+        {
+          path: 'academicSemester'
+        },
+        {
+          path: 'academicDepartment'
+        },
+        {
+          path: 'academicFaculty'
+        }
+      ]
+    });
+  }
+
   return newUserAllData;
 };
 

@@ -6,14 +6,9 @@
     "auditLog": "D:\\Bungee\\Fahim\\Backend\\university-backend\\logs\\winston\\successes\\.327814ffeaf5bd6d5c09bf662a586fb7f01ff2a9-audit.json",
     "files": [
         {
-            "date": 1710507505827,
-            "name": "D:\\Bungee\\Fahim\\Backend\\university-backend\\logs\\winston\\successes\\2024-15-03-18-success.log",
-            "hash": "40974c6eeab9b1d1bc70e4b9626764ee7844ffe91d8958f07c8c3fffdefc7801"
-        },
-        {
-            "date": 1710507818000,
-            "name": "D:\\Bungee\\Fahim\\Backend\\university-backend\\logs\\winston\\successes\\2024-15-03-19-success.log",
-            "hash": "3e95f82cfff812e0e5db9bcf2f87d4eced7b3348ca1da07d05a102b92b2945a9"
+            "date": 1710827153042,
+            "name": "D:\\Bungee\\Fahim\\Backend\\university-backend\\logs\\winston\\successes\\2024-19-03-11-success.log",
+            "hash": "da77098d09abbf68046538aa4bc9e8bf4efb45258ea883ef83103881b561fec7"
         }
     ],
     "hashType": "sha256"
