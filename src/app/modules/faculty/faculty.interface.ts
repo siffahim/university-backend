@@ -1,10 +1,10 @@
 import { InferSchemaType, Model } from 'mongoose';
-import { studentSchema } from './student.model';
+import { facultySchema } from './faculty.model';
 
-export type IStudent = InferSchemaType<typeof studentSchema>;
-export type StudentModel = Model<IStudent, Record<string, unknown>>;
+export type IFaculty = InferSchemaType<typeof facultySchema>;
+export type FacultyModel = Model<IFaculty, Record<string, unknown>>;
 
-export type IStudentFilters = {
+export type IFacultyFilters = {
   searchTerm?: string;
   id?: string;
   email?: string;

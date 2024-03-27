@@ -1,5 +1,5 @@
 import { Schema, model } from 'mongoose';
-import { bloodGroup, gender } from './student.constant';
+import { bloodGroup, gender } from '../../../constants/common';
 import { IStudent, StudentModel } from './student.interface';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
