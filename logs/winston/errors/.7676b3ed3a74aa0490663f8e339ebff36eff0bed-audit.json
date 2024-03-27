@@ -6,16 +6,6 @@
     "auditLog": "D:\\Bungee\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\.7676b3ed3a74aa0490663f8e339ebff36eff0bed-audit.json",
     "files": [
         {
-            "date": 1711444830653,
-            "name": "D:\\Bungee\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-26-03-15-error.log",
-            "hash": "5a404d2434089c9a6b214f3c68a660460a9dd9557d36a436507ba54ba835a987"
-        },
-        {
-            "date": 1711447492692,
-            "name": "D:\\Bungee\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-26-03-16-error.log",
-            "hash": "7060e46c8a431889982c40be61b67e2b3951a91a3ab49ec192ae953223af0294"
-        },
-        {
             "date": 1711460429149,
             "name": "D:\\Bungee\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-26-03-19-error.log",
             "hash": "22ef12ebff9bd47a9618833e881d5294177cddc2c76a10c34b7800856f350ddb"
@@ -59,6 +49,16 @@
             "date": 1711530311199,
             "name": "D:\\Bungee\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-27-03-15-error.log",
             "hash": "13184c6588cf9cdfef2768bb0a9bb86100775b3a0b4160d876c1671c7e8f96db"
+        },
+        {
+            "date": 1711534692254,
+            "name": "D:\\Bungee\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-27-03-16-error.log",
+            "hash": "45be2ba97014f689eefc01caf57424df003f9e99cbc32d870aac86e7cee272ff"
+        },
+        {
+            "date": 1711544912020,
+            "name": "D:\\Bungee\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-27-03-19-error.log",
+            "hash": "6a5f34a7ce840f1f36e05f968e34fb519c5052379e589e741ee9c4d83141b656"
         }
     ],
     "hashType": "sha256"

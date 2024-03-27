@@ -1,10 +1,9 @@
 import { model, Schema } from 'mongoose';
 import { bloodGroup, gender } from '../../../constants/common';
-import { designation } from './faculty.constant';
-import { FacultyModel, IFaculty } from './faculty.interface';
+import { AdminModel, IAdmin } from './admin.interface';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-export const facultySchema: any = new Schema<IFaculty, FacultyModel>(
+export const adminSchema: any = new Schema<IAdmin, AdminModel>(
   {
     id: {
       type: String,
@@ -64,17 +63,12 @@ export const facultySchema: any = new Schema<IFaculty, FacultyModel>(
     },
     designation: {
       type: String,
-      enum: designation
-    },
-    profileImage: { type: String },
-    academicDepartment: {
-      type: Schema.Types.ObjectId,
-      ref: 'AcademicDepartment',
       required: true
     },
-    academicFaculty: {
+    profileImage: { type: String },
+    managementDepartment: {
       type: Schema.Types.ObjectId,
-      ref: 'AcademicFaculty',
+      ref: 'ManagementDepartment',
       required: true
     }
   },
@@ -86,4 +80,4 @@ export const facultySchema: any = new Schema<IFaculty, FacultyModel>(
   }
 );
 
-export const Faculty = model<IFaculty, FacultyModel>('Faculty', facultySchema);
+export const Admin = model<IAdmin, AdminModel>('Admin', adminSchema);
