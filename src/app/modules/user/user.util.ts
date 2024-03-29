@@ -3,7 +3,7 @@ import { User } from './user.model';
 
 //student
 const findLastStudentId = async (): Promise<string | undefined> => {
-  const lastStudent = await User.findOne({}, { id: 1, _id: 0 })
+  const lastStudent = await User.findOne({ role: 'student' }, { id: 1, _id: 0 })
     .sort({ createdAt: -1 })
     .lean();
   return lastStudent?.id ? lastStudent?.id.substring(4) : undefined;
@@ -21,7 +21,7 @@ export const generateStudentId = async (
 
 //faculty
 const findLastFacultyId = async (): Promise<string | undefined> => {
-  const lastFaculty = await User.findOne({}, { id: 1, _id: 0 })
+  const lastFaculty = await User.findOne({ role: 'faculty' }, { id: 1, _id: 0 })
     .sort({ createdAt: -1 })
     .lean();
   return lastFaculty?.id ? lastFaculty.id.substring(2) : undefined;
@@ -37,7 +37,7 @@ export const generateFacultyId = async () => {
 
 //admin
 const findLastAdminId = async () => {
-  const lastAdmin = await User.findOne({}, { id: 1, _id: 0 })
+  const lastAdmin = await User.findOne({ role: 'admin' }, { id: 1, _id: 0 })
     .sort({
       createdAt: -1
     })

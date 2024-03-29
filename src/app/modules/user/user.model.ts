@@ -1,9 +1,10 @@
+/* eslint-disable @typescript-eslint/no-this-alias */
 import bcrypt from 'bcrypt';
 import { Schema, model } from 'mongoose';
 import config from '../../../config';
-import { IUser, UserModel } from './user.interface';
+import { IUser, IUserMethods, UserModel } from './user.interface';
 
-const userSchema = new Schema<IUser, UserModel>(
+const userSchema = new Schema<IUser, UserModel, IUserMethods>(
   {
     id: {
       type: String,
@@ -16,7 +17,12 @@ const userSchema = new Schema<IUser, UserModel>(
     },
     password: {
       type: String,
-      required: true
+      required: true,
+      select: 0
+    },
+    isChangePassword: {
+      type: Boolean,
+      default: true
     },
     student: {
       type: Schema.Types.ObjectId,
@@ -39,10 +45,29 @@ const userSchema = new Schema<IUser, UserModel>(
   }
 );
 
-//hash for all user
+//isExist user
+userSchema.methods.isUserExist = async function (
+  id: string
+): Promise<Partial<IUser> | null> {
+  return await User.findOne(
+    { id },
+    { id: 1, password: 1, role: 1, isChangePassword: 1 }
+  );
+};
+
+//password compare
+userSchema.methods.isPasswordMatch = async function (
+  givenPass: string,
+  currentPass: string
+): Promise<boolean> {
+  return await bcrypt.compare(givenPass, currentPass);
+};
+
+//hash password
 userSchema.pre('save', async function (next) {
-  this.password = await bcrypt.hash(
-    this.password,
+  const user = this;
+  user.password = await bcrypt.hash(
+    user.password,
     Number(config.bcrypt_salt_rounds)
   );
   next();
