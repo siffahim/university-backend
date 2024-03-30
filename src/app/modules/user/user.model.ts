@@ -2,9 +2,9 @@
 import bcrypt from 'bcrypt';
 import { Schema, model } from 'mongoose';
 import config from '../../../config';
-import { IUser, IUserMethods, UserModel } from './user.interface';
+import { IUser, UserModel } from './user.interface';
 
-const userSchema = new Schema<IUser, UserModel, IUserMethods>(
+const userSchema = new Schema<IUser, UserModel>(
   {
     id: {
       type: String,
@@ -46,7 +46,7 @@ const userSchema = new Schema<IUser, UserModel, IUserMethods>(
 );
 
 //isExist user
-userSchema.methods.isUserExist = async function (
+userSchema.statics.isUserExist = async function (
   id: string
 ): Promise<Partial<IUser> | null> {
   return await User.findOne(
@@ -56,7 +56,7 @@ userSchema.methods.isUserExist = async function (
 };
 
 //password compare
-userSchema.methods.isPasswordMatch = async function (
+userSchema.statics.isPasswordMatch = async function (
   givenPass: string,
   currentPass: string
 ): Promise<boolean> {
@@ -74,3 +74,23 @@ userSchema.pre('save', async function (next) {
 });
 
 export const User = model<IUser, UserModel>('User', userSchema);
+
+//instance create
+
+/* //isExist user
+userSchema.methods.isUserExist = async function (
+  id: string
+): Promise<Partial<IUser> | null> {
+  return await User.findOne(
+    { id },
+    { id: 1, password: 1, role: 1, isChangePassword: 1 }
+  );
+};
+
+//password compare
+userSchema.methods.isPasswordMatch = async function (
+  givenPass: string,
+  currentPass: string
+): Promise<boolean> {
+  return await bcrypt.compare(givenPass, currentPass);
+}; */

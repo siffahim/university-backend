@@ -6,39 +6,34 @@
     "auditLog": "D:\\Bungee\\Fahim\\Backend\\university-backend\\logs\\winston\\successes\\.327814ffeaf5bd6d5c09bf662a586fb7f01ff2a9-audit.json",
     "files": [
         {
-            "date": 1711637523947,
-            "name": "D:\\Bungee\\Fahim\\Backend\\university-backend\\logs\\winston\\successes\\2024-28-03-20-success.log",
-            "hash": "f07ab3d817fc54a2aae033f5e81f4db59394005e60a0019d1ec69ff2074e605d"
-        },
-        {
-            "date": 1711638037645,
-            "name": "D:\\Bungee\\Fahim\\Backend\\university-backend\\logs\\winston\\successes\\2024-28-03-21-success.log",
-            "hash": "dac66d1ace09c3a0d700f044d03b34cbac3ec894046105b38a2ede20a5846da4"
-        },
-        {
-            "date": 1711690027623,
-            "name": "D:\\Bungee\\Fahim\\Backend\\university-backend\\logs\\winston\\successes\\2024-29-03-11-success.log",
-            "hash": "163f4656a5ed3ceb4b704f77c4d0ad714a6280e4233f6a3d2dcde5909874b465"
-        },
-        {
-            "date": 1711701593399,
-            "name": "D:\\Bungee\\Fahim\\Backend\\university-backend\\logs\\winston\\successes\\2024-29-03-14-success.log",
-            "hash": "0e7916a915c4184d4134a92ba90b3b9e2db300674c5b32e0b7fcda01ccd59154"
-        },
-        {
-            "date": 1711703529469,
-            "name": "D:\\Bungee\\Fahim\\Backend\\university-backend\\logs\\winston\\successes\\2024-29-03-15-success.log",
-            "hash": "a776ddf616b829e1b655ed319e1b4aa9d2dacff8f09cd93ee846cd230a55ce0f"
-        },
-        {
-            "date": 1711716592652,
-            "name": "D:\\Bungee\\Fahim\\Backend\\university-backend\\logs\\winston\\successes\\2024-29-03-18-success.log",
-            "hash": "6ced71d5dad337073fc19bcd032202787252c8860382053f346fdcb69aeb9a8c"
-        },
-        {
             "date": 1711718340138,
             "name": "D:\\Bungee\\Fahim\\Backend\\university-backend\\logs\\winston\\successes\\2024-29-03-19-success.log",
             "hash": "5c2ea216c983de5b11462f08083218675ee1ed52f673f59f504f06b07d46cf39"
+        },
+        {
+            "date": 1711770022233,
+            "name": "D:\\Bungee\\Fahim\\Backend\\university-backend\\logs\\winston\\successes\\2024-30-03-09-success.log",
+            "hash": "8f90ce616374efa779b28d95c1a80823d9e7a88f6f129b022f23c416032f4f02"
+        },
+        {
+            "date": 1711771269501,
+            "name": "D:\\Bungee\\Fahim\\Backend\\university-backend\\logs\\winston\\successes\\2024-30-03-10-success.log",
+            "hash": "c8d93113de01270d733497576963d9240850e6923598e1888c47a8c456f7f79e"
+        },
+        {
+            "date": 1711775609296,
+            "name": "D:\\Bungee\\Fahim\\Backend\\university-backend\\logs\\winston\\successes\\2024-30-03-11-success.log",
+            "hash": "d56929ee477f77481ca2efbdd41103f44c58d67ccfb5a1fa0111f60761c56c5d"
+        },
+        {
+            "date": 1711790138721,
+            "name": "D:\\Bungee\\Fahim\\Backend\\university-backend\\logs\\winston\\successes\\2024-30-03-15-success.log",
+            "hash": "1a2165967ae35426df98fc3496916eb4089e489d22fe83b1251716cc38dbf481"
+        },
+        {
+            "date": 1711804694764,
+            "name": "D:\\Bungee\\Fahim\\Backend\\university-backend\\logs\\winston\\successes\\2024-30-03-19-success.log",
+            "hash": "24c9b1fda5b349ba91d64c3a2deee0c2c03ef1e074a781208f29fef72a1df970"
         }
     ],
     "hashType": "sha256"
