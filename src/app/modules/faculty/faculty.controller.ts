@@ -9,6 +9,8 @@ import { IFaculty } from './faculty.interface';
 import { FacultyService } from './faculty.service';
 
 const getAllFaculties = catchAsync(async (req: Request, res: Response) => {
+  console.log(req.headers.authorization);
+  console.log(req.user);
   const filters = pick(req.query, facultyFilterableField);
   const paginationOptions = pick(req.query, paginationFields);
 

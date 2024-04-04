@@ -6,34 +6,9 @@
     "auditLog": "D:\\Bungee\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\.7676b3ed3a74aa0490663f8e339ebff36eff0bed-audit.json",
     "files": [
         {
-            "date": 1711718340141,
-            "name": "D:\\Bungee\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-29-03-19-error.log",
-            "hash": "20e38aa082a3d9d0c343860622b172321d1e77c3a136a0c137e665c7157cabb9"
-        },
-        {
-            "date": 1711770022237,
-            "name": "D:\\Bungee\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-30-03-09-error.log",
-            "hash": "da8f9cd5151fefb76eebb8b4a0671e13163d054d986d637e12f1d5ec87d1ed96"
-        },
-        {
-            "date": 1711771269503,
-            "name": "D:\\Bungee\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-30-03-10-error.log",
-            "hash": "da7ee66f0412b260bfe8f66169e8e397f77bd32ec892fe40aad28a77f12ac0b7"
-        },
-        {
-            "date": 1711775609299,
-            "name": "D:\\Bungee\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-30-03-11-error.log",
-            "hash": "e7304d43c8f76eda4ccd3f073e0a5396a50393d9804a96ddf96c8c95fe83c926"
-        },
-        {
-            "date": 1711790138727,
-            "name": "D:\\Bungee\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-30-03-15-error.log",
-            "hash": "cde0dfa1cc546cc80bf5103383a4c1cf9ce489d169d54987ffd04ce8f9f86550"
-        },
-        {
-            "date": 1711804694767,
-            "name": "D:\\Bungee\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-30-03-19-error.log",
-            "hash": "eedafa579d440cf34db452bbe5f8d508df07ea493898b55b1dfe018ed329b5c6"
+            "date": 1712206896958,
+            "name": "D:\\Bungee\\Fahim\\Backend\\university-backend\\logs\\winston\\errors\\2024-04-04-11-error.log",
+            "hash": "7983c4a58b3a3b4bb43486e52e4b2e29c6b8d719f7f19b1a34b5c497ca1617e8"
         }
     ],
     "hashType": "sha256"
